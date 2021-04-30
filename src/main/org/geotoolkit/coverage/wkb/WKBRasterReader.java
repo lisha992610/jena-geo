@@ -42,8 +42,10 @@ import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
-import org.apache.sis.internal.coverage.BufferedGridCoverage;
-import org.apache.sis.internal.coverage.ColorModelFactory;
+import org.apache.sis.coverage.grid.BufferedGridCoverage;
+//import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.apache.sis.internal.coverage.j2d.ColorModelFactory;
+//import org.apache.sis.internal.raster.ColorModelFactory;
 import org.apache.sis.internal.referencing.j2d.AffineTransform2D;
 import org.apache.sis.metadata.iso.content.DefaultSampleDimension;
 import org.apache.sis.referencing.CRS;
@@ -348,7 +350,7 @@ public class WKBRasterReader {
         ColorModel cm = PlanarImage.getDefaultColorModel(sm.getDataType(), raster.getNumBands());
         if(cm==null){
             //fallback
-            cm = (ColorModel) ColorModelFactory.GRAYSCALE;  //createGrayScale(sm.getDataType(), raster.getNumBands(), 0, min, max);
+            cm = (ColorModel) ColorModelFactory.createGrayScale(sm.getDataType(), raster.getNumBands(), 0, min, max);
         }
         return new BufferedImage(cm, raster, false, null);
     }

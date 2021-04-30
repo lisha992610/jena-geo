@@ -14,7 +14,8 @@ import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
-import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.apache.sis.coverage.grid.BufferedGridCoverage;
+//import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.apache.sis.util.iso.DefaultNameFactory;
 import org.opengis.referencing.datum.PixelInCell;
 

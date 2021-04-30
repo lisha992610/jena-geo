@@ -62,6 +62,7 @@
           <element id="library" level="project" name="Maven: org.opengis:geoapi:4.0-M05" />
           <element id="library" level="project" name="Maven: org.apache.sis.storage:sis-storage:2.0-M0070" />
           <element id="library" level="project" name="Maven: org.apache.sis.storage:sis-netcdf:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.sis.core:sis-raster:1.0-M1" />
           <element id="library" level="project" name="Maven: org.apache.sis.storage:sis-geotiff:1.0" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/sis/core/sis-referencing/2.0-SNAPSHOT/sis-referencing-2.0-20210421.032349-107.jar" output-file-name="sis-referencing-2.0-SNAPSHOT.jar" />
           <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apache/sis/core/sis-referencing-by-identifiers/2.0-SNAPSHOT/sis-referencing-by-identifiers-2.0-20210421.032350-107.jar" output-file-name="sis-referencing-by-identifiers-2.0-SNAPSHOT.jar" />
