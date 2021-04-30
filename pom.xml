@@ -199,40 +199,21 @@
             <artifactId>geoapi</artifactId>
             <version>${geoapi.version}</version>
         </dependency> 
-             <dependency>
+-->     <dependency>
             <groupId>org.geotoolkit</groupId>
             <artifactId>geotk-coverage</artifactId>
             <version>${geotk.version}</version>
         </dependency>
--->        <!-- <dependency>
+   <dependency>
             <groupId>org.apache.sis.core</groupId>
             <artifactId>sis-feature</artifactId>
             <version>${sis.version}</version>
         </dependency>
-         <dependency>
-            <groupId>org.apache.sis.storage</groupId>
-            <artifactId>sis-storage</artifactId>
-            <version>${sis.version}</version>
-        </dependency>
-                 <dependency>
-            <groupId>org.apache.sis.storage</groupId>
-            <artifactId>sis-geotiff</artifactId>
-            <version>${sis.version}</version>
-        </dependency>
-         <dependency>
-            <groupId>org.apache.sis.storage</groupId>
-            <artifactId>sis-netcdf</artifactId>
-            <version>${sis.version}</version>
-        </dependency>--> 
+
       <dependency>
             <groupId>org.opengis</groupId>
             <artifactId>geoapi</artifactId>
             <version>${geoapi.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sis.core</groupId>
-            <artifactId>sis-feature</artifactId>
-            <version>${sis.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.sis.storage</groupId>
@@ -286,12 +267,6 @@
             <version>${sis.version}</version>
         </dependency>-->
 
-
-        <dependency>
-            <groupId>org.apache.sis.core</groupId>
-            <artifactId>sis-utility</artifactId>
-            <version>${sis.version}</version>
-        </dependency>
         <!-- <dependency>
             <groupId>org.apache.sis.core</groupId>
             <artifactId>sis-referencing-by-identifiers</artifactId>
@@ -437,12 +412,17 @@
 		<version>1.19</version>
 	</dependency>
 
+        <dependency>
+            <groupId>com.github.twak</groupId>
+            <artifactId>campskeleton</artifactId>
+            <version>0.0.1</version>
+        </dependency>
 <!-- https://mvnrepository.com/artifact/twak/campskeleton -->
-<dependency>
+<!--<dependency>
     <groupId>twak</groupId>
     <artifactId>campskeleton</artifactId>
     <version>v0.1.1</version>
-</dependency>
+</dependency>-->
 
 
         
@@ -473,6 +453,10 @@
     </dependencies>
 
     <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
         <repository>
             <id>osgeo</id>
             <name>Open Source Geospatial Foundation Repository</name>
