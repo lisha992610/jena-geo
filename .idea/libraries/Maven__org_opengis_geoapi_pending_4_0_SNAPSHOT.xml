@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opengis:geoapi-pending:4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opengis/geoapi-pending/4.0-SNAPSHOT/geoapi-pending-4.0-20210421.032028-40.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opengis/geoapi-pending/4.0-SNAPSHOT/geoapi-pending-4.0-20210421.032028-40-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opengis/geoapi-pending/4.0-SNAPSHOT/geoapi-pending-4.0-20210421.032028-40-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -257,6 +257,7 @@ de\hsmainz\cs\semgis\arqextension\test\raster\attribute\TranslateYTest.class
 de\hsmainz\cs\semgis\arqextension\test\geometry\transform\PrecisionReducerTest.class
 de\hsmainz\cs\semgis\arqextension\test\raster\attribute\TileHeightTest.class
 de\hsmainz\cs\semgis\arqextension\test\polygon\attribute\CircularityIndexTest.class
+de\hsmainz\cs\semgis\arqextension\geometry\attribute\IsValidDetailTest.class
 de\hsmainz\cs\semgis\arqextension\test\envelope\YMinTest.class
 de\hsmainz\cs\semgis\arqextension\test\unit\FootToMeterTest.class
 de\hsmainz\cs\semgis\arqextension\test\unit\MeterToLinkTest.class

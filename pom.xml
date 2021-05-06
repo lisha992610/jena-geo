@@ -91,6 +91,12 @@
     <artifactId>json</artifactId>
     <version>20180813</version>
 </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.0-alpha1</version>
+        </dependency>
+
         
       <dependency>
     <groupId>org.wololo</groupId>
@@ -199,12 +205,12 @@
             <artifactId>geoapi</artifactId>
             <version>${geoapi.version}</version>
         </dependency> 
--->     <dependency>
+    <dependency>
             <groupId>org.geotoolkit</groupId>
             <artifactId>geotk-coverage</artifactId>
             <version>${geotk.version}</version>
-        </dependency>
-   <dependency>
+     </dependency>
+    -->     <dependency>
             <groupId>org.apache.sis.core</groupId>
             <artifactId>sis-feature</artifactId>
             <version>${sis.version}</version>
@@ -453,15 +459,23 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
+            <version>5.5.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
         </dependency>
+        <!-- <dependency>
+             <groupId>junit</groupId>
+             <artifactId>junit</artifactId>
+             <version>4.12</version>
+             <scope>compile</scope>
+         </dependency>-->
+
+
 
         <!--     <dependency>
             <groupId>com.conveyal</groupId>
@@ -505,5 +519,7 @@
             <name>Geotk repository</name>
             <url>https://maven.geotoolkit.org</url>
         </repository>
+
+
     </repositories>
 </project>

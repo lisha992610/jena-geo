@@ -161,6 +161,7 @@ C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextensi
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\raster\attribute\TileGridXOffsetTest.java
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\linestring\attribute\EndPointTest.java
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\polygon\attribute\IsIsocelesTriangleTest.java
+C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\geometry\attribute\IsValidDetailTest.java
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\raster\transform\ResizeTest.java
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\raster\attribute\TranslateXTest.java
 C:\Users\Shiying\Documents\CKG\jena-geo\src\test\de\hsmainz\cs\semgis\arqextension\test\geometry\editor\SetGeometryTest.java

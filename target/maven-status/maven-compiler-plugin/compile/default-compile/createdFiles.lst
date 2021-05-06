@@ -581,6 +581,7 @@ de\hsmainz\cs\semgis\arqextension\benchmark\BenchmarkExecutor.class
 de\hsmainz\cs\semgis\arqextension\temporal\Minus.class
 io\github\galbiston\geosparql_jena\implementation\datatype\geometry\GeoJSONDatatype.class
 de\hsmainz\cs\semgis\arqextension\linestring\attribute\IsValidTrajectory.class
+Tutorial.class
 de\hsmainz\cs\semgis\arqextension\geometry\transform\Normalize.class
 de\hsmainz\cs\semgis\arqextension\envelope\relation\BBOXAbove.class
 de\hsmainz\cs\semgis\arqextension\raster\attribute\SkewY.class
