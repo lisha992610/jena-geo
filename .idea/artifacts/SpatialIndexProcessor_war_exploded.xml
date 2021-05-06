@@ -89,7 +89,6 @@
           <element id="library" level="project" name="Maven: org.jaitools:jt-all:1.4.0" />
           <element id="library" level="project" name="Maven: com.vividsolutions:jts:1.12" />
           <element id="library" level="project" name="Maven: xerces:xercesImpl:2.4.0" />
-          <element id="library" level="project" name="Maven: org.apache.derby:derby:10.13.1.1" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.19" />
           <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.19" />
