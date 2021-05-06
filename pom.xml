@@ -2,7 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>SpatialIndexProcessor</groupId>
-    <packaging>war</packaging>
+    <!--<packaging>war</packaging>-->
+    <packaging>jar</packaging>
     <artifactId>SpatialIndexProcessor</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <build>
@@ -241,7 +242,7 @@
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
-            <version>10.13.1.1</version>
+            <version>10.14.2.0</version>
         </dependency>
         <dependency>
             <groupId>com.sun.jersey</groupId>
