@@ -1,1 +1,0 @@
-var postgis=[{"experiment":"loadRaster","result":1000},{"experiment":"modifyRaster","result":3000}]

@@ -1,24 +1,23 @@
 package de.hsmainz.cs.semgis.arqextension.raster.algebra;
 
-import java.awt.image.renderable.ParameterBlock;
-import java.util.LinkedList;
-import java.util.List;
-
-import javax.media.jai.JAI;
-import javax.media.jai.RenderedOp;
-
+import io.github.galbiston.geosparql_jena.implementation.datatype.raster.CoverageWrapper;
 import org.apache.jena.sparql.expr.NodeValue;
 import org.apache.jena.sparql.function.FunctionBase2;
+import org.apache.sis.coverage.grid.BufferedGridCoverage;
+//import org.apache.sis.coverage.internal.BufferedGridCoverage;
 import org.apache.sis.coverage.Category;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
-import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.apache.sis.util.iso.DefaultNameFactory;
 import org.opengis.referencing.datum.PixelInCell;
 
-import io.github.galbiston.geosparql_jena.implementation.datatype.raster.CoverageWrapper;
+import javax.media.jai.JAI;
+import javax.media.jai.RenderedOp;
+import java.awt.image.renderable.ParameterBlock;
+import java.util.LinkedList;
+import java.util.List;
 
 public class And extends FunctionBase2  {
 
