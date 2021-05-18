@@ -28,15 +28,15 @@ repositories {
     }
 
     maven {
+        url = uri('https://maven.geotoolkit.org')
+    }
+
+    maven {
         url = uri('https://maven.openkm.com/')
     }
 
     maven {
         url = uri('https://repo.spring.io/plugins-release/')
-    }
-
-    maven {
-        url = uri('https://maven.geotoolkit.org')
     }
 
     maven {
