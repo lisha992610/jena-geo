@@ -10,7 +10,7 @@ plugins {
 sourceSets.main.java.srcDirs = ['src/main']
 //sourceSets.test.java.srcDirs = ['src/test']
 repositories {
-    mavenLocal()
+    //mavenLocal()
     maven {
         url = uri('https://jitpack.io')
     }
