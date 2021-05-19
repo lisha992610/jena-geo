@@ -11,15 +11,15 @@ sourceSets.main.java.srcDirs = ['src/main']
 //sourceSets.test.java.srcDirs = ['src/test']
 repositories {
 
-    maven { url = uri('https://nexus.geomatys.com/service/rest/repository/browse/geotoolkit/')}
-    maven { url = uri('https://jitpack.io') }
+    //maven { url = uri('https://nexus.geomatys.com/service/rest/repository/browse/geotoolkit/')}
+    maven { url = uri('https://jitpack.io') }   // for com.github.twak.campskeleton
     maven { url = uri('https://repo.osgeo.org/') }
     maven { url = uri('https://maven.geo-solutions.it/') }
     maven { url = uri('https://maven.geotoolkit.org') }
     maven { url = uri('https://52north.org/maven/repo/releases/') }
     maven { url = uri('https://maven.openkm.com/') }
     maven { url = uri('https://repo.spring.io/plugins-release/')}
-    maven { url = uri('https://repo.maven.apache.org/maven2/') }    // MavenCentral()
+    //maven { url = uri('https://repo.maven.apache.org/maven2/') }    // MavenCentral()
 
 }
 
