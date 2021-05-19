@@ -2,6 +2,7 @@
 .idea/
 target/
 backup/
+build/
 
 derby.log
 Dockerfile
