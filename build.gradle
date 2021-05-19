@@ -72,7 +72,7 @@ dependencies {
 }
 
 group = 'SpatialIndexProcessor'
-version = '0.0.2-SNAPSHOT'
+version = '0.0.3'
 description = 'SpatialIndexProcessor'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
