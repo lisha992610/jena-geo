@@ -35,7 +35,7 @@ dependencies {
     implementation 'net.postgis:postgis-jdbc:2.3.0'
     implementation 'org.postgresql:postgresql:42.1.1'
     //implementation 'org.apache.sis.core:sis-feature:2.0-SNAPSHOT'
-    //implementation 'org.apache.sis.core:sis-feature:2.0-M0070'
+    implementation 'org.apache.sis.core:sis-feature:2.0-M0070'
     implementation 'org.opengis:geoapi:4.0-M05'
     implementation 'org.apache.sis.storage:sis-storage:2.0-M0070'
     implementation 'org.apache.sis.storage:sis-netcdf:1.0'
