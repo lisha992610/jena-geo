@@ -11,7 +11,6 @@ sourceSets.main.java.srcDirs = ['src/main']
 //sourceSets.test.java.srcDirs = ['src/test']
 repositories {
     //mavenLocal()
-
     maven { url = uri('https://jitpack.io') }
     maven { url = uri('https://repo.osgeo.org/') }
     maven { url = uri('https://maven.geo-solutions.it/') }
@@ -20,6 +19,7 @@ repositories {
     maven { url = uri('https://maven.openkm.com/') }
     maven { url = uri('https://repo.spring.io/plugins-release/')}
     maven { url = uri('https://repo.maven.apache.org/maven2/') }
+
 }
 
 dependencies {
