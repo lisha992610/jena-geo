@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Fri May 07 15:37:12 SGT 2021:
-Booting Derby (version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579)) instance a816c00e-0179-45c2-4f67-00000dfb5c58 
+Tue May 18 17:06:36 SGT 2021:
+Booting Derby (version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579)) instance a816c00e-0179-7eba-19e5-00000eb72200 
 on database directory classpath:SIS_DATA/Databases/SpatialMetadata in READ ONLY mode with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09. 
-Loaded from file:/C:/Users/Shiying/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar.
+Loaded from file:/C:/Users/Shiying/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.14.2.0/7efad40ef52fbb1f08142f07a83b42d29e47d8ce/derby-10.14.2.0.jar.
 java.vendor=Amazon.com Inc.
 java.runtime.version=11.0.8+10-LTS
 user.dir=C:\Users\Shiying\Documents\CKG\jena_geo_test
@@ -12,5 +12,5 @@ os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Fri May 07 15:37:14 SGT 2021:
-Shutting down instance a816c00e-0179-45c2-4f67-00000dfb5c58 on database directory classpath:SIS_DATA/Databases/SpatialMetadata with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09 
+Tue May 18 17:06:38 SGT 2021:
+Shutting down instance a816c00e-0179-7eba-19e5-00000eb72200 on database directory classpath:SIS_DATA/Databases/SpatialMetadata with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09 

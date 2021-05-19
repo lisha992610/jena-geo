@@ -927,8 +927,8 @@ de/hsmainz/cs/semgis/arqextension/util/PolyshapeReader.java
  de.hsmainz.cs.semgis.arqextension.util.PolyshapeReader$XReader
 io/github/galbiston/geosparql_jena/implementation/datatype/SpatialWrapper.java
  io.github.galbiston.geosparql_jena.implementation.datatype.SpatialWrapper
-de/hsmainz/cs/semgis/arqextension/temporal/Meets.java
- de.hsmainz.cs.semgis.arqextension.temporal.Meets
+Tutorial/Tutorial_isValid.java
+ Tutorial.Tutorial_isValid
 de/hsmainz/cs/semgis/arqextension/util/parsers/CoverageJsonWriter.java
  de.hsmainz.cs.semgis.arqextension.util.parsers.CoverageJsonWriter
 de/hsmainz/cs/semgis/arqextension/geometry/exporter/AsMVTGeom.java
@@ -1268,5 +1268,5 @@ de/hsmainz/cs/semgis/arqextension/temporal/Minus.java
  de.hsmainz.cs.semgis.arqextension.temporal.Minus
 de/hsmainz/cs/semgis/arqextension/geometry/transform/CollectionExtract.java
  de.hsmainz.cs.semgis.arqextension.geometry.transform.CollectionExtract
-Tutorial/Tutorial_isValid.java
- Tutorial.Tutorial_isValid
+de/hsmainz/cs/semgis/arqextension/temporal/Meets.java
+ de.hsmainz.cs.semgis.arqextension.temporal.Meets

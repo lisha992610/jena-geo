@@ -1,0 +1,10 @@
+target/
+backup/
+
+derby.log
+Dockerfile
+functions.ttl
+geosparqlplus.ttl
+pom.xml
+pom_bak.xml
+pom_bak1.xml
