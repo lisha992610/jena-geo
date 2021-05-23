@@ -92,8 +92,7 @@ artifacts {
 publishing {
     publications {
         maven(MavenPublication) {
-            from(components.java)
-            artifact sourcesJar
+            from components.java
 
         }
     }

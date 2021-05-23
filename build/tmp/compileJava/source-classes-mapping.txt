@@ -584,8 +584,6 @@ de/hsmainz/cs/semgis/arqextension/polygon/attribute/IsIsocelesTriangle.java
  de.hsmainz.cs.semgis.arqextension.polygon.attribute.IsIsocelesTriangle
 de/hsmainz/cs/semgis/arqextension/raster/algebra/AddConst.java
  de.hsmainz.cs.semgis.arqextension.raster.algebra.AddConst
-Tutorial/Tutorial_Transform.java
- Tutorial.Tutorial_Transform
 de/hsmainz/cs/semgis/arqextension/raster/Polygon.java
  de.hsmainz.cs.semgis.arqextension.raster.Polygon
 de/hsmainz/cs/semgis/arqextension/envelope/constructor/MakeBox3D.java
@@ -927,8 +925,6 @@ de/hsmainz/cs/semgis/arqextension/util/PolyshapeReader.java
  de.hsmainz.cs.semgis.arqextension.util.PolyshapeReader$XReader
 io/github/galbiston/geosparql_jena/implementation/datatype/SpatialWrapper.java
  io.github.galbiston.geosparql_jena.implementation.datatype.SpatialWrapper
-Tutorial/Tutorial_isValid.java
- Tutorial.Tutorial_isValid
 de/hsmainz/cs/semgis/arqextension/util/parsers/CoverageJsonWriter.java
  de.hsmainz.cs.semgis.arqextension.util.parsers.CoverageJsonWriter
 de/hsmainz/cs/semgis/arqextension/geometry/exporter/AsMVTGeom.java
