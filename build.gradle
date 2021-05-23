@@ -23,7 +23,7 @@ repositories {
     maven { url = uri('https://maven.geotoolkit.org') }
     maven { url = uri('https://52north.org/maven/repo/releases/') }
     maven { url = uri('https://maven.openkm.com/') }
-    maven { url = uri('https://repo.spring.io/plugins-release/')}
+    //maven { url = uri('https://repo.spring.io/plugins-release/')}
     //maven { url = uri('https://repo.spring.io/libs-release/')}
     //maven { url = uri('https://repo.maven.apache.org/maven2/') }    // MavenCentral()
     maven { url = uri('https://jitpack.io') }  // for com.github.twak.campskeleton
@@ -79,25 +79,21 @@ task sourcesJar(type: Jar) {
     archiveClassifier = "sources"
 }
 
-task javadocJar(type: Jar) {
-    from javadoc.destinationDir
-    archiveClassifier = 'javadoc'
-}
-
 artifacts {
     archives sourcesJar
-    archives javadocJar
 }
 
 publishing {
     publications {
         maven(MavenPublication) {
             from components.java
+            artifact sourcesJar
 
         }
     }
 }
-
+/*
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+*/
