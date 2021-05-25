@@ -3,7 +3,10 @@
 target/
 backup/
 build/
+.github/workflows
+owl/
 
+.gitlab-ci.yml
 derby.log
 Dockerfile
 functions.ttl
